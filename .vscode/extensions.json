@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "Jota0222.multi-formatter",
+        "bmewburn.vscode-intelephense-client",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "johnbillion.vscode-wordpress-hooks",
+        "junstyle.php-cs-fixer",
+        "streetsidesoftware.code-spell-checker",
+        "stylelint.vscode-stylelint",
+        "whatwedo.twig",
+        "xdebug.php-debug"
+    ],
+    "unwantedRecommendations": [
+        "ms-azuretools.vscode-azureappservice",
+        "ms-edgedevtools.vscode-edge-devtools",
+        "ms-ossdata.vscode-postgresql"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "experimentalTernaries": true,
+    "plugins": ["@destination/prettier-plugin-twig", "@prettier/plugin-php"],
+    "printWidth": 80,
+    "semi": false,
+    "singleAttributePerLine": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "useTabs": false
+}

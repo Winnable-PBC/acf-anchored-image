@@ -1,0 +1,67 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always"
+    },
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "[css]": {
+        "editor.defaultFormatter": "Jota0222.multi-formatter",
+        "multiFormatter.formatterList": [
+            "esbenp.prettier-vscode",
+            "stylelint.vscode-stylelint"
+        ]
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "Jota0222.multi-formatter",
+        "multiFormatter.formatterList": [
+            "esbenp.prettier-vscode",
+            "dbaeumer.vscode-eslint"
+        ]
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "Jota0222.multi-formatter",
+        "multiFormatter.formatterList": [
+            "bmewburn.vscode-intelephense-client",
+            "junstyle.php-cs-fixer",
+            "esbenp.prettier-vscode"
+        ]
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "Jota0222.multi-formatter",
+        "multiFormatter.formatterList": [
+            "esbenp.prettier-vscode",
+            "stylelint.vscode-stylelint"
+        ]
+    },
+    "[twig]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/vendor/**/{Tests,tests}/**",
+        "**/vendor/**/vendor/**"
+    ],
+    "prettier.configPath": ".prettierrc",
+    "prettier.enable": true,
+    "prettier.prettierPath": "./node_modules/prettier",
+    "prettier.requireConfig": true,
+    "prettier.ignorePath": ".prettierignore",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.exclude": ["**/node_modules/**"],
+    "stylelint.enable": true,
+    "stylelint.snippet": ["css", "postcss", "scss"],
+    "stylelint.validate": [
+        "css",
+        "postcss",
+        "scss"
+    ]
+}
