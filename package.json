@@ -1,9 +1,12 @@
 {
-    "name": "winnable-template-dev",
+    "name": "acf-anchored-image",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "scripts": {},
+    "scripts": {
+        "lint": "prettier -w . && eslint --fix src && stylelint --fix src/**/*.{css,scss}",
+        "build": "vite build"
+    },
     "type": "module",
     "author": "",
     "license": "ISC",
@@ -14,12 +17,12 @@
         "eslint": "^9.11.1",
         "eslint-plugin-perfectionist": "^3.8.0",
         "globals": "^15.9.0",
-        "postcss-scss": "^4.0.9",
+        "lightningcss": "^1.27.0",
         "prettier": "^3.3.3",
-        "sass": "^1.78.0",
-        "sass-embedded": "^1.79.4",
         "stylelint-config-standard": "^36.0.1",
         "stylelint-order": "^6.0.4",
-        "stylelint-scss": "^6.5.1"
+        "stylelint-scss": "^6.5.1",
+        "terser": "^5.35.0",
+        "vite": "^5.4.9"
     }
 }

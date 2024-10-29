@@ -59,9 +59,5 @@
     "php-cs-fixer.exclude": ["**/node_modules/**"],
     "stylelint.enable": true,
     "stylelint.snippet": ["css", "postcss", "scss"],
-    "stylelint.validate": [
-        "css",
-        "postcss",
-        "scss"
-    ]
+    "stylelint.validate": ["css", "postcss", "scss"]
 }
