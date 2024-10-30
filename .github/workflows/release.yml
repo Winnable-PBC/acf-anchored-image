@@ -1,0 +1,26 @@
+on:
+    push:
+        tags:
+            - 'v*'
+name: Create release
+jobs:
+    build:
+        name: Build and release
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+            - name: Set up Node.js
+              uses: actions/setup-node@v2
+            - name: Install dependencies
+              run: npm install
+            - name: Build
+              run: npm run build
+            - name: Create zip
+              run: zip -r acf-anchored-image.zip . -x ".*" -x "*.config.js" -x "*.md" -x "*.json" -x "src/*" -x "node_modules/*"
+            - name: Create release
+              uses: ncipollo/release-action@v1
+              with:
+                  artifacts: |
+                      acf-anchored-image.zip
+                  tag: 'test'
