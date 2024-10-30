@@ -58,7 +58,6 @@ if (!class_exists('acf_field_anchored_image')):
         public function input_admin_enqueue_scripts()
         {
             $dir = plugin_dir_url(__FILE__);
-            var_dump($dir);
 
             wp_register_script(
                 'acf-input-anchored_image',
