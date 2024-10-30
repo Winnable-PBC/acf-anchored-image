@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "A WordPress plugin that provides an ACF field for adding images with a user-defined anchor point.",
     "dist": {
-        "url": "https://api.github.com/repos/Winnable-PBC/acf-anchored-image/releases/assets/202888843",
+        "url": "https://github.com/Winnable-PBC/acf-anchored-image/releases/latest/download/acf-anchored-image.zip",
         "type": "zip"
     },
     "require": {
