@@ -12,7 +12,6 @@
  * GitHub Branch:       main
  */
 
-var_dump('got here');
 if (!defined('ABSPATH')) {
     exit();
 }
