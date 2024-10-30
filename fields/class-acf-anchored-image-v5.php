@@ -62,13 +62,13 @@ if (!class_exists('acf_field_anchored_image')):
 
             wp_register_script(
                 'acf-input-anchored_image',
-                "{$dir}../assets/input.js",
+                "{$dir}../dist/input.js",
                 ['acf-input', 'imgareaselect']
             );
 
             wp_register_style(
                 'acf-input-anchored_image',
-                "{$dir}../assets/style.css",
+                "{$dir}../dist/style.css",
                 ['acf-input']
             );
 
