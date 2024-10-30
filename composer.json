@@ -1,0 +1,9 @@
+{
+    "type": "wordpress-plugin",
+    "name": "winnable-pbc/acf-anchored-image",
+    "version": "1.0.0",
+    "description": "A WordPress plugin that provides an ACF field for adding images with a user-defined anchor point.",
+    "require": {
+        "wpengine/advanced-custom-fields-pro": "^6"
+    }
+}
