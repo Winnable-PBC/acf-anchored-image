@@ -20,6 +20,11 @@ if (!class_exists('acf_field_anchored_image')):
             parent::__construct();
         }
 
+        public function format_value($value, $post_id, $field)
+        {
+            return json_decode($value);
+        }
+
         public function get_field_data($field)
         {
             $data = new stdClass();
